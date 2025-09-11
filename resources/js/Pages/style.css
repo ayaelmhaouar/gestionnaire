@@ -1,0 +1,32 @@
+.dashboard-container {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+.dashboard-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.card {
+  max-width: 400px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #555;
+}
+
+.card strong {
+  color: #222;
+}
