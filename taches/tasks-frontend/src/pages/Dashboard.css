@@ -1,0 +1,64 @@
+.dashboard-container {
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.dashboard-form button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+}
+
+.dashboard-form button:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  color: green;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-list button {
+  padding: 4px 8px;
+  cursor: pointer;
+  border: none;
+  background-color: #dc3545;
+  color: white;
+  border-radius: 4px;
+}
+
+.task-list button:hover {
+  background-color: #a71d2a;
+}

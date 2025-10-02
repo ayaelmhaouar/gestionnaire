@@ -1,0 +1,87 @@
+
+.register-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f3f4f6; /* bg-gray-100 */
+  padding: 20px;
+}
+
+/* Form card */
+.register-card {
+  background: #ffffff; /* bg-white */
+  box-shadow: 0 10px 30px rgba(2,6,23,0.08); /* soft shadow */
+  border-radius: 14px; /* rounded-xl */
+  padding: 32px; /* p-8 */
+  width: 100%; /* w-full */
+  max-width: 420px; /* max-w-md */
+  box-sizing: border-box;
+}
+
+/* Heading */
+.register-card h2 {
+  margin: 0 0 20px 0;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: #0f172a;
+}
+
+/* Inputs */
+.register-card input[type="text"],
+.register-card input[type="email"],
+.register-card input[type="password"],
+.register-card textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 12px; /* mb-4 */
+  border-radius: 10px; /* rounded-lg */
+  border: 1px solid #e6e8eb;
+  background: #fff;
+  font-size: 14px;
+  outline: none;
+  transition: box-shadow .15s ease, border-color .15s ease;
+  box-sizing: border-box;
+}
+
+.register-card input:focus,
+.register-card textarea:focus {
+  box-shadow: 0 0 0 4px rgba(37,99,235,0.06);
+  border-color: #2563eb;
+}
+
+/* Button */
+.register-card .btn-submit {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 14px;
+  background: #2563eb; /* blue-600 */
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform .08s ease, background .12s ease;
+}
+
+.register-card .btn-submit:hover {
+  background: #1e4fd8; /* darker */
+  transform: translateY(-1px);
+}
+
+/* Message text */
+.register-card .message {
+  margin-top: 14px;
+  text-align: center;
+  font-size: 14px;
+  color: #dc2626; /* red */
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .register-card {
+    padding: 20px;
+    border-radius: 12px;
+  }
+}
